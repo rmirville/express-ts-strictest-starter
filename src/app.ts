@@ -7,7 +7,7 @@ import http from 'http';
 import morgan from 'morgan';
 import type { Port } from '@app/core/types/port.js';
 
-import indexRouter from './src/api/index.router.js';
+import indexRouter from './api/index.router.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
